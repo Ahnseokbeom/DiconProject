@@ -7,6 +7,7 @@
         <div id="hello" v-show="value">Hello Vue.js</div>
     </div>
 </template>
+
 <script>
     export default {
         name: 'MyCheckbox3',
