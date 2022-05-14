@@ -10,7 +10,7 @@
 
 <script>
     export default {
-        name: 'checkBox',
+        name: 'mainPage',
         data() {
             return {value: false};
         }

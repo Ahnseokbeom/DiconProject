@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <Checkbox/>
+  <MainPage/>
 </template>
 
 <script>
 import Checkbox from './Checkbox.vue'
+import mainPage from './mainPage.vue'
 
 export default {
   name: 'App',
   components: {
-    Checkbox
+    Checkbox,
+    mainPage,
 }
 }
 </script>
