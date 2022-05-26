@@ -33,6 +33,11 @@ const routes = [
     name: 'GameAos',
     component: () => import(/* webpackChunkName: "about" */ '../views/GameAos.vue')
   },
+  {
+    path: '/GameFps',
+    name: 'GameFps',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameFps.vue')
+  },
 ]
 
 const router = createRouter({
