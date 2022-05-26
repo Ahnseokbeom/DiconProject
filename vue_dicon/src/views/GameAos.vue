@@ -20,6 +20,9 @@
    <a href="/LogIn">Login / </a><a href="/signUp">SignUp</a>
   </div>
   </header>
+  <div>
+      
+  </div>
 </template>
 <script>
 export default {
