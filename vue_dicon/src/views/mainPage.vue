@@ -1,4 +1,12 @@
 <template>
+<header>
+    <h1>hello</h1>
+    <nav>
+        <span>hello1</span>
+        <span>hello2</span>
+        <span>hello3</span>
+    </nav>
+</header>
     <div class="box">
         <h1>checkbox</h1>
         <p>{{ value }}</p>
@@ -39,5 +47,17 @@
         border: 1px solid gray;
         text-align: center;
         font-size: 20pt;
+    }
+    header{
+        position:fixed;
+        height: 75px;
+        padding: 1rem;
+        color: white;
+        background: teal;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 </style>
