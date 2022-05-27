@@ -8,7 +8,7 @@
 </script>
 <style scoped>
 #app {
-    overflow: scroll; width: 100%; height: 300px;
+    z-index:9999;
 }
 </style>
 

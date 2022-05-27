@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header style="z-index:100">
         <div>
             <a href="/">
                 <h1>GameRating</h1>
@@ -32,7 +32,7 @@
             </div>
         </header>
         <div id="content">
-            <table>
+            <table style="z-index : 10000">
                 <tr>
                     <p>FPS</p>
                 </tr>
@@ -62,9 +62,9 @@
                                     </tr>
                                 </table>
                             </div>
-                            <div>
-                                <img src="../img/FPS1.png" style="position:fixed; top:300px; left : 1270px;width:1000px;height: 800px;z-index: 2;">
-                                <img src="../img/FPS2.png" style="position:fixed; top:370px; right : 1530px;width:600px;height: 400px;z-index: 2;">
+                            <div style="z-index : 1;">
+                                <img src="../img/FPS1.png" style="position:fixed; top:300px; left : 1150px;width:1100px;height: 800px;z-index: 2;">
+                                <img src="../img/FPS2.png" style="position:fixed; top:400px; right : 1450px;width:700px;height: 700px;z-index: 2;">
                             </div>
                         </template>
                         <script>
@@ -90,7 +90,7 @@ p {
         border-radius: 50%;
     }
     div#content {
-        z-index: 1;
+        z-index: 100;
         position: absolute;
         top: 100px;
     }

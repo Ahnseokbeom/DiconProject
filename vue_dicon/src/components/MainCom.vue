@@ -1,4 +1,4 @@
-<template>
+<template >
   <div id="main">
     <div>
       <table>
@@ -48,6 +48,7 @@ img {
   padding : 10px 10px 10px 70px;
 }
 #main {
+    z-index: 1;
   /* background-color: yellow; */
   overflow: scroll; width:100%; height: 320px;
   -ms-overflow-style: none;

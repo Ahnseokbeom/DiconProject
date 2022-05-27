@@ -37,6 +37,10 @@ const routes = [
     path: '/GameFps',
     name: 'GameFps',
     component: () => import(/* webpackChunkName: "about" */ '../views/GameFps.vue')
+  },{
+    path: '/GaMe',
+    name: 'GaMe',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GaMe.vue')
   },
 ]
 

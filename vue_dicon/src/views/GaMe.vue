@@ -1,5 +1,5 @@
 <template>
-    <header style="z-index : 100;">
+    <header style="z-index:100">
         <div>
             <a href="/">
                 <h1>GameRating</h1>
@@ -26,45 +26,44 @@
                 <input type="text" v-model="value" style="color : white"></div>
             </div>
             <div id="login">
-                <a href="/LogIn">Login /
-                </a>
-                <a href="/signUp">SignUp</a>
+                <a href="/User" style="text-decoration : underline;">안석범님</a>
+                <h10> 환영합니다</h10>
             </div>
         </header>
         <div id="content">
-            <table>
+            <table style="z-index : 10">
                 <tr>
-                    <p>AOS</p>
+                    <p>FPS</p>
                 </tr>
                 <tr>
                     <td>
-                        <a href="https://www.leagueoflegends.com/ko-kr/"><img src="../img/롤2.jpg"></a></td>
+                        <a href="https://playoverwatch.com/ko-kr/"><img src="../img/오버워치.jpg"></a></td>
                         <td>
-                            <a href="https://heroesofthestorm.com/ko-kr/"><img src="../img/히오스.jpg"></a></td>
+                            <a href="https://sa.nexon.com/main/index.aspx"><img src="../img/서든어택.jpg"></a></td>
                             <td>
-                                <a href="https://cyphers.nexon.com/cyphers/main"><img src="../img/사이퍼즈.jpg"></a></td>
+                                <a href="https://pubg.game.daum.net/pubg/index.daum"><img src="../img/배그.jpg"></a></td>
                                 <td >
-                                    <a href="https://www.dota2.com/home?l=koreana"><img src="../img/도타2.jpg"></a></td>
+                                    <a href="https://playvalorant.com/ko-kr/"><img src="../img/발로란트.jpg"></a></td>
                                     <td>
-                                        <a href="https://heroesofthestorm.com/ko-kr/"><img src="../img/히오스.jpg"></a></td>
+                                        <a href="https://www.ea.com/ko-kr/games/battlefield"><img src="../img/배틀필드.jpg"></a></td>
                                     </tr>
                                     <tr>
                     <td>
-                        <a href="#"><img src="../img/헤이얀코.jpg" style="margin-top:50px; z-index: 1;"></a></td>
+                        <a href="https://www.ubisoft.com/ko-kr/game/rainbow-six/siege"><img src="../img/레인보우식스.jpg" style="margin-top:50px; z-index: 1;"></a></td>
                         <td>
-                            <a href="#"><img src="../img/펜타스톰.jpg" style="margin-top:50px;"></a></td>
+                            <a href="https://store.steampowered.com/agecheck/app/550/?l=koreana"><img src="../img/레포데.jpg" style="margin-top:50px;"></a></td>
                             <td>
-                                <a href="#"><img src="../img/얼티밋스쿨.jpg" style="margin-top:50px;"></a></td>
+                                <a href="http://sf.dfl.co.kr/Main/HomeMain"><img src="../img/스폐셜포스.jpg" style="margin-top:50px;"></a></td>
                                 <td >
-                                    <a href="#"><img src="../img/아레나오브히어로즈.jpg" style="margin-top:50px;"></a></td>
+                                    <a href="https://csonline.nexon.com/E220519/Contest"><img src="../img/카스.jpg" style="margin-top:50px;"></a></td>
                                     <td>
-                                        <a href="#"><img src="../img/베인글로리.jpg" style="margin-top:50px;"></a></td>
+                                        <a href="https://www.ea.com/ko-kr/games/apex-legends/about"><img src="../img/에이팩스.png" style="margin-top:50px;"></a></td>
                                     </tr>
                                 </table>
                             </div>
                             <div style="z-index : 1;">
-                                <img src="../img/AOS1.png" style="position:fixed; top:250px; left : 1320px;width:1000px;height: 800px;z-index: 2;">
-                                <img src="../img/AOS2.png" style="position:fixed; top:500px; right : 1390px;width:800px;height: 500px;z-index: 2;">
+                                <img src="../img/FPS1.png" style="position:fixed; top:300px; left : 1150px;width:1100px;height: 800px;z-index: 2;">
+                                <img src="../img/FPS2.png" style="position:fixed; top:400px; right : 1450px;width:700px;height: 700px;z-index: 2;">
                             </div>
                         </template>
                         <script>
@@ -81,12 +80,12 @@ p {
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 60px;
     text-align: center;
-    color: rgb(117, 151, 178);
+    color: rgb(120,97,67);
 }
-    img {
-        margin-left: 80px;
+    img{
         width: 250px;
         height: 250px;
+        margin-left: 80px;
         border-radius: 50%;
     }
     div#content {
@@ -101,7 +100,7 @@ p {
         font-family: 'Nanum Gothic Coding', monospace;
         opacity: 50%;
         text-align: center;
-        border: 1px solid rgb(130,160,190);
+        border: 1px solid rgb(150,120,100);
         position: absolute;
         top: 0;
         right: 300px;
@@ -109,7 +108,7 @@ p {
         width: 25%;
         height: 40px;
         margin: 10px auto;
-        background-color: rgb(117, 151, 178);
+        background-color: rgb(140,110,90);
         border-radius: 10px;
     }
     a {
@@ -162,7 +161,7 @@ p {
         top: 0;
         padding: 1rem;
         color: white;
-        background: rgb(133, 176, 209);
+        background: rgb(120,97,67);
         font-weight: bold;
         display: flex;
         justify-content: space-between;

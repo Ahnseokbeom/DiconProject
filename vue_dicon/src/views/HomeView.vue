@@ -1,5 +1,5 @@
 <template>
-<header>
+<header style="z-index:100">
   <div>
   <a href="/"><h1>GameRating</h1></a>
   </div>
@@ -13,7 +13,7 @@
       </tr>
     </table>
     <div>
-      <input type="text" v-model = "value" style="color : white">
+      <input type="text" style="color : white" placeholder="게임 이름을 입력해주세요 " >
     </div>
   </div>
   <div id ="login">
@@ -22,20 +22,29 @@
   </header>
   <main-com />
   <foo-ter />
+  <foo-ter-2 />
 </template>
-<script>
+<script >
 import MainCom from '@/components/MainCom.vue'
 import FooTer from '@/components/FooTer.vue'
+import FooTer2 from '@/components/FooTer2.vue';
 export default {
-  components: { MainCom ,FooTer},
+  components: { MainCom ,FooTer, FooTer2},
   data(){
-  return {value : "게임 이름을 입력해주세요"};
+  return {
+    value : ""
+    };
+},
 }
-}
+
 
 </script>
 
 <style scoped>
+input::placeholder {
+  color: white;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
 div {
     font-family: 'Nanum Gothic Coding', monospace;
 }
