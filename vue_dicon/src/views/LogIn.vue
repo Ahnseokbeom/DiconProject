@@ -28,7 +28,9 @@
                 <button type="submit" id="account" style=" margin-bottom: 30px;">로그인</button>
             </tr>
             <tr>
-                <label>회원가입 | 아이디 찾기 | 비밀번호 찾기</label>
+                <label><a href="/Signup" style="color : black;">회원가입</a> | 
+				<a href="FoundID"  style="color : black;">아이디 찾기</a> |
+				<a href="FoundPW" style="color : black;">비밀번호 찾기</a></label>
             </tr>
 			</table>
 		</form>

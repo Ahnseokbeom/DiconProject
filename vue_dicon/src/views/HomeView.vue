@@ -110,6 +110,7 @@ header {
   padding: 1rem;
   color: white;
   background: rgb(210, 202, 226);
+  /* background: rgb(128,128,200); */
   font-weight: bold;
   display: flex;
   justify-content: space-between;

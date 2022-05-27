@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div>
         <router-view></router-view>
     </div>
 </template>
@@ -7,8 +7,5 @@
 
 </script>
 <style scoped>
-#app {
-    z-index:9999;
-}
 </style>
 
