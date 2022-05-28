@@ -1,7 +1,7 @@
 <template>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet"> -->
 	<div>
 		<header>
 		<div>
@@ -81,6 +81,7 @@ div {
     color: rgb(210, 202, 226);
 }
 h1 {
+	font-family: 'Nanum Gothic Coding', monospace;
 	margin-left: 750px;
 }
 a{
