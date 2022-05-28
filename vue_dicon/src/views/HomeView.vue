@@ -74,13 +74,12 @@ td {
   margin-top: 20px;
 }
 #top {
-  z-index: 1;
   display: flex;
   justify-content: center;
   text-align: left;
   font-size: 30px;
   padding : 10px 100px;
-  margin : 10px auto;
+  margin : 0 auto;
   /* background-color: yellow; */
 }
 #top2 {
@@ -95,6 +94,7 @@ td {
   color : rgb(215,219,239);
 }
 #login {
+  z-index : 10;
   position: fixed;
   top:21.5px;
   right:20px;
