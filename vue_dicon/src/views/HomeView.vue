@@ -13,7 +13,7 @@
       </tr>
     </table>
     <div>
-      <input type="text" style="color : white" placeholder="게임 이름을 입력해주세요 " >
+     <input type="text" style="color : white" placeholder="게임 이름을 입력해주세요 " >
     </div>
   </div>
   <div id ="login">
